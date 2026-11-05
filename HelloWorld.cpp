@@ -26,10 +26,12 @@ int main()
 
     //More variable printing
     int x{ 5 };
-    std::cout << "x\n is equal to: " << x;
+    std::cout << "x\nis equal to: " << x;
     std::cout << "\n";
 
-
+    //Using std::endl
+    std::cout << "Learning C++" << std::endl;
+    std::cout << "For CSC 481" << std::endl;
 
     return 0;
 }
