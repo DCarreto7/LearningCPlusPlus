@@ -2,6 +2,10 @@
 
 #include <iostream>
 
+void doNothing(int&)
+{
+}
+
 int main()
 {
     std::cout << "Hello, World!\n"; //Adding comments are ignored by the compiler
@@ -48,6 +52,13 @@ int main()
     std::cin >> b;
 
     std::cout << "You entered " << a << " and " << b << std::endl;
+
+    //Uninitialized variable
+    int q;
+    doNothing(q);
+    std::cout << q << std::endl;
+
+    std::cout << sizeof(int) << std::endl;
 
     return 0;
 }
