@@ -33,5 +33,12 @@ int main()
     std::cout << "Learning C++" << std::endl;
     std::cout << "For CSC 481" << std::endl;
 
+    //std::cin
+    std::cout << "Enter a number: " << std::endl;
+    int f{};
+    std::cin >> f;
+    std::cout << "You entered " << f << "." << std::endl;
+
+
     return 0;
 }
