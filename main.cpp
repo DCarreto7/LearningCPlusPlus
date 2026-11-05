@@ -1,15 +1,15 @@
-//
-// Created by Dominic Carreto on 11/5/26.
-//
+// Created by DCarreto7
 
 #include <iostream>
 
 int main()
 {
     std::cout << "Hello, World!\n"; //Adding comments are ignored by the compiler
+
     /* This is a multi-line comment.
      * This line will be ignored.
-     * So will this one. */
+     * So will this one.
+     */
 
     //Prints literal number
     std::cout << 5;
@@ -39,6 +39,15 @@ int main()
     std::cin >> f;
     std::cout << "You entered " << f << "." << std::endl;
 
+    //std::cin with two numbers
+    std::cout << "Enter two numbers: " << std::endl;
+    int a{};
+    std::cin >> a;
+
+    int b{};
+    std::cin >> b;
+
+    std::cout << "You entered " << a << " and " << b << std::endl;
 
     return 0;
 }
