@@ -10,9 +10,19 @@ int main()
     /* This is a multi-line comment.
      * This line will be ignored.
      * So will this one. */
+
+    //Prints literal number
     std::cout << 5;
     std::cout << "\n";
     std::cout <<-6.7;
+    std::cout << "\n";
+
+    //Defines variable
+    int x;
+    double variable;
+    long y,z;
+    int randNum = 67;
+    std::cout << randNum;
 
     return 0;
 }
