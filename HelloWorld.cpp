@@ -18,11 +18,18 @@ int main()
     std::cout << "\n";
 
     //Defines variable
-    int x;
+    int d;
     double variable;
     long y,z;
     int randNum = 67;
     std::cout << randNum;
+
+    //More variable printing
+    int x{ 5 };
+    std::cout << "x\n is equal to: " << x;
+    std::cout << "\n";
+
+
 
     return 0;
 }
