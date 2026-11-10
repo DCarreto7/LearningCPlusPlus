@@ -60,5 +60,8 @@ int main()
 
     std::cout << sizeof(int) << std::endl;
 
+    std::cout << "This is a really, really, really, really, really, really, really, "
+        "really long line\n"; //Print format for long lines =
+
     return 0;
 }
