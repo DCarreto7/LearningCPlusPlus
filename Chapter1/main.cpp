@@ -63,5 +63,11 @@ int main()
     std::cout << "This is a really, really, really, really, really, really, really, "
         "really long line\n"; //Print format for long lines =
 
+    //String Literals
+    std::cout << 5 << '\n'; //Prints the value of a literal
+    int w { 5 };
+
+    std::cout << w << '\n'; //Prints the value of a variable
+
     return 0;
 }
