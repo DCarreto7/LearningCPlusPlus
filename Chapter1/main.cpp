@@ -6,6 +6,11 @@ void doNothing(int&)
 {
 }
 
+int five()
+{
+    return 5;
+}
+
 int main()
 {
     std::cout << "Hello, World!\n"; //Adding comments are ignored by the compiler
@@ -68,6 +73,13 @@ int main()
     int w { 5 };
 
     std::cout << w << '\n'; //Prints the value of a variable
+
+    //Operators
+    std::cout << 1 + 2 << std::endl;
+
+    //Expressions
+    int p { five() }; //Initialized functions five() which returns value 5
+    std::cout << p << std::endl;
 
     return 0;
 }
